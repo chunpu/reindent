@@ -31,7 +31,7 @@ reindent *.js *.json
 complex usage
 
 ```sh
-find *.js src -name '*.js' reindent {} +
+find . -name '*.js' -exec reindent {} +
 ```
 
 Option

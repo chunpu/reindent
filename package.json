@@ -1,6 +1,6 @@
 {
   "name": "reindent",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Reindent and trim code",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "require-dir": "^0.1.0"
   },
   "bin": {
-    "reindent": "node ./bin/reindent.js"
+    "reindent": "./bin/reindent.js"
   },
   "devDependencies": {},
   "repository": {
