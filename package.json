@@ -1,0 +1,33 @@
+{
+  "name": "reindent",
+  "version": "1.0.0",
+  "description": "Reindent and trim code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "readme": "pretty-readme > readme.md"
+  },
+  "author": "chunpu",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^0.9.0",
+    "commander": "^2.6.0",
+    "min-util": "^1.2.2",
+    "require-dir": "^0.1.0"
+  },
+  "bin": {
+    "reindent": "node ./bin/reindent.js"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chunpu/reindent.git"
+  },
+  "keywords": [
+    "reindent"
+  ],
+  "bugs": {
+    "url": "https://github.com/chunpu/reindent/issues"
+  },
+  "homepage": "https://github.com/chunpu/reindent"
+}
