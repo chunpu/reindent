@@ -40,6 +40,7 @@ function reindentLines(lines, ext, indent) {
 	for (var i = 0; i < lines.length; i++) {
 		var ret = fn(lines[i - 1], lines[i], lines[i+1])
 		if (ret) curr += ret
+		if (curr < 0) curr = 0
 		arr[i] = [curr, lines[i]]
 	}
 	return format(arr, indent)

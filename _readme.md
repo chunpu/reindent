@@ -1,6 +1,8 @@
 Usage
 ---
 
+> God! it is too complex, close this project!
+
 ```sh
 reindent *.js *.json
 ```
